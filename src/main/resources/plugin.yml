@@ -2,5 +2,14 @@ name: SoftKeepInventory
 version: '${project.version}'
 main: searous.softkeepinventory.SoftKeepInventory
 api-version: '1.19'
+
+permissions:
+  softkeepinventory.reload:
+    default: op
+
 commands:
-  ski:
+  softkeepinventory:
+    description: Parent command for any commands related to Soft Keep Inventory
+    usage: "&b/softkeepinventory reload to reload the config"
+    permission:  softkeepinventory.reload
+    aliases: ski

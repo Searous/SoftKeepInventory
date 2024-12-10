@@ -38,7 +38,7 @@ public final class SoftKeepInventory extends JavaPlugin {
         this.loadConfig();
 
         // Commands
-        this.getCommand("ski").setExecutor(new CommandRelaod(this));
+        this.getCommand("softkeepinventory").setExecutor(new CommandRelaod(this));
 
         // Plugin startup logic
         getLogger().log(Level.INFO, "Plugin loaded!");
