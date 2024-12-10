@@ -1,0 +1,107 @@
+
+enabled: true
+
+# all - all items are kept on death. some - only listed items are kept on death. none - no items are kept on death
+mode: 'some'
+pvpMode: 'all'
+
+# When true, only the worlds listed bellow will use this plugin's features
+onlyInSpecificWorlds: false
+worlds: [
+  'world',
+  'world_nether',
+  'world_end'
+]
+
+# Any items in this list will not be dropped when a player dies
+keepItems: [
+  # Swords
+  "minecraft:wooden_sword",
+  "minecraft:stone_sword",
+  "minecraft:iron_sword",
+  "minecraft:gold_sword",
+  "minecraft:diamond_sword",
+  "minecraft:netherite_sword",
+  
+  # Pickaxes
+  "minecraft:wooden_pickaxe",
+  "minecraft:stone_pickaxe",
+  "minecraft:iron_pickaxe",
+  "minecraft:gold_pickaxe",
+  "minecraft:diamond_pickaxe",
+  "minecraft:netherite_pickaxe",
+  
+  # Axe
+  "minecraft:wooden_axe",
+  "minecraft:stone_axe",
+  "minecraft:iron_axe",
+  "minecraft:gold_axe",
+  "minecraft:diamond_axe",
+  "minecraft:netherite_axe",
+  
+  # Shovels
+  "minecraft:wooden_shovel",
+  "minecraft:stone_shovel",
+  "minecraft:iron_shovel",
+  "minecraft:gold_shovel",
+  "minecraft:diamond_shovel",
+  "minecraft:netherite_shovel",
+  
+  # Hoes
+  "minecraft:wooden_hoe",
+  "minecraft:stone_hoe",
+  "minecraft:iron_hoe",
+  "minecraft:gold_hoe",
+  "minecraft:diamond_hoe",
+  "minecraft:netherite_hoe",
+  
+  # Helmets
+  "minecraft:leather_helmet",
+  "minecraft:iron_helmet",
+  "minecraft:gold_helmet",
+  "minecraft:diamond_helmet",
+  "minecraft:netherite_helmet",
+  
+  # Chestplates
+  "minecraft:leather_chestplate",
+  "minecraft:iron_chestplate",
+  "minecraft:gold_chestplate",
+  "minecraft:diamond_chestplate",
+  "minecraft:netherite_chestplate",
+  
+  # Leggings
+  "minecraft:leather_leggings",
+  "minecraft:iron_leggings",
+  "minecraft:gold_leggings",
+  "minecraft:diamond_leggings",
+  "minecraft:netherite_leggings",
+  
+  # Boots
+  "minecraft:leather_bootss",
+  "minecraft:iron_bootss",
+  "minecraft:gold_bootss",
+  "minecraft:diamond_bootss",
+  "minecraft:netherite_bootss",
+
+  # Misc Tools
+  "minecraft:bow",
+  "minecraft:arrow",
+  "minecraft:shears",
+  "minecraft:fishing_rod",
+  "minecraft:bucket",
+  "minecraft:shield",
+  "minecraft:book_and_quil",
+  "minecraft:written_book",
+  "minecraft:bundle",
+  "minecraft:shulker_box",
+  "minecraft:torch",
+  "minecraft:ender_chest"
+]
+
+# Always keep items in these slots, regardless of
+keepSlots: [
+
+]
+
+# Keep XP on death
+keepXP: true

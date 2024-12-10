@@ -1,0 +1,6 @@
+name: SoftKeepInventory
+version: '${project.version}'
+main: searous.softkeepinventory.SoftKeepInventory
+api-version: '1.19'
+commands:
+  ski:
